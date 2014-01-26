@@ -1,0 +1,154 @@
+.ffxvi-navbar a, .ffxvi-navbar2 a {
+    color: #000000;
+    text-decoration: none;
+}
+.ffxvi-navbar, .ffxvi-navbar2 {
+    background-color: #FFFFFF;
+    border-bottom: 0.5em solid #000000;
+    height: 48px;
+    width: 100%;
+    z-index: 1000;
+}
+.ffxvi-navbar .item-list, .ffxvi-navbar2 .item-list2 {
+    margin: -10px auto 0;
+    width: 1200px;
+}
+#nav {
+    padding: 0;
+    font-size: 16px;
+    font-family: Verdana;
+}
+#navcontainer {
+    margin-bottom: 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#navcontainer #nav {
+    margin: 0 auto;
+}
+#nav li.current, #nav li:hover {
+    background-color: #F8F8F8;
+    border-bottom: 0.5em solid #FFA500;
+}
+#nav li:hover {
+    border-bottom: 0.5em solid #FFCC00;
+}
+#nav li.last {
+    float: right;
+}
+#nav li {
+    border-top: 0.5em solid #000000;
+    cursor: pointer;
+    float: left;
+    height: 35px;
+    list-style: none outside none;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    padding-top: 0.2em;
+    position: relative;
+}
+#nav a {
+    display: block;
+    margin: 0;
+    padding: 5px 10px;
+    text-align: center;
+}
+#nav ul li a {
+    text-align: left;
+}
+#nav li:hover > ul {
+    display: block;
+}
+#nav ul {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    display: none;
+    left: 0;
+    margin: 0;
+    min-width: 100%;
+    padding: 0;
+    position: absolute;
+    top: 38px;
+    z-index: 100;
+}
+#nav ul li {
+    border: 0 none;
+    float: none;
+    font-size: 0.8em;
+    height: 2em;
+    margin: 0.5em 0;
+    padding: 0 0 0.5em;
+    position: relative;
+    white-space: nowrap;
+}
+#nav ul li ul li {
+    font-size: 1em;
+    margin: 0;
+}
+#nav ul li:hover {
+    border: medium none;
+}
+#nav ul li ul {
+    display: none;
+}
+#nav li ul li:hover > ul {
+    display: block;
+    left: 100%;
+    position: absolute;
+    top: 0;
+}
+.special {
+    background-image: url("http://www.finalfantasy-14.de/images/meteorsurvivor_countdown.png");
+    height: 190px;
+    left: 50%;
+    margin: 0 auto -70px -250px;
+    position: relative;
+    width: 500px;
+}
+.special .timer {
+    left: 45px;
+    position: absolute;
+    top: 110px;
+}
+.special .timer .number {
+    background: -moz-linear-gradient(center top , #FFFFFF, #CCCCCC) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 3px;
+    float: left;
+    font-size: 1.5em;
+    margin: 2px;
+    padding: 5px 15px;
+}
+.special .timer .spacer {
+    color: #CCCCCC;
+    float: left;
+    font-size: 1.3em;
+    padding-top: 10px;
+    width: 10px;
+}
+#nav .chocolink {
+    background-image: url("/uploads/rdc/logox40.png");
+    background-repeat: no-repeat;
+    background-size: 33px auto;
+    padding-left: 40px;
+}
+#nav .gesellschft {
+    background-repeat: no-repeat;
+    background-size: 33px auto;
+    padding-left: 40px;
+}
+#nav .chocolink i, #nav .gesellschft i {
+    font-size: 0.7em;
+}
+#chatbox_offline {
+    color: #FF0000;
+    display: block;
+    font-size: 0.6em;
+}
+#chatbox_new_message {
+    display: none;
+}
+#nav .donations {
+    margin-top: 8px;
+}
