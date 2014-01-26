@@ -94,7 +94,7 @@ class XivdeTemplate extends BaseTemplate {
 		</div>
 	</div>
     <div class="logo">
-        <a href="www.finalfantasy-14.de">
+        <a href="http://www.finalfantasy-14.de">
             <img title="FinalFantasy-14.de" alt="FinalFantasy-14.de" src="http://www.finalfantasy-14.de/bundles/sitelayout/images/logo.png">
         </a>        
     </div>
